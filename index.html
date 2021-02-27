@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Home</title>
+</head>
+<body>
+   <div class="container">
+   <div class="navbar">
+       <img src="UA_LOGO.png" alt="log" class="logo">
+       <nav>
+           <ul id="menuList">
+      <li><a href="https://www.underarmour.com.sg/en-sg/mens/basketball-shoes/">BASKETBALL</a></li>
+      <li><a href="https://www.underarmour.com.sg/en-sg/mens/training-shoes/">TRAINING</a></li>
+      <li><a href="https://www.underarmour.com.sg/en-sg/womens/running-shoes/">RUNNING</a></li>
+      <li><a href="https://www.underarmour.com.sg/en-sg/mens/sportstyle-shoes/">SPORT STYLE</a></li>
+</ul>
+       </nav>
+       <img src="menu.png" alt="menu" class="menu"
+        onclick="togglemenu()">
+   </div>
+    <div class="row">
+        <div class="col-1">
+        <h2>New Training Shoes<br> Rock X Under Armour</h2>
+        <h3>Recommended for heavy weight lifting</h3>
+        <p>various sizes available</p>
+        <h4>$219.99</h4>
+        <button type="button"><a href="https://www.underarmour.com.sg/en-sg/mens-ua-project-rock-3-cny-training-shoes/3023916.html">Buy Now</a><img src="arrow.png" alt="arrow"></button>
+        </div>    
+        
+        <div class="col-2">
+            <img src="Shoe.png" class="rockshoe">
+        <div class="color-box"></div>
+        <div class="add-btn">
+            <img src="add.png">
+            <a href="https://www.underarmour.com.sg/en-sg/mens-ua-project-rock-3-cny-training-shoes/3023916.html"><p><small>ADD TO CART</small></p></a>
+        </div>
+        </div>
+
+        </div>
+        
+    </div>
+    <div class="social-links">
+            <a href="https://www.facebook.com/UnderArmourSouthEastAsia/"><img src="faceb.png"></a>
+           <a href="https://twitter.com/UnderArmour?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> <img src="tweety.png"></a>
+          <a href="https://www.instagram.com/underarmour/">  <img src="insta.png"></a>
+            </div>
+   </div>
+   <script>
+       var menuList = document.getElementById("menuList");
+
+       menuList.style.maxHeight = "0px";
+
+       function togglemenu(){
+           if (menuList.style.maxHeight == "0px")
+           {
+               menuList.style.maxHeight = "130px";
+           }
+           else{
+                 menuList.style.maxHeight = "0px";
+           }
+       }
+   </script>
+</body>
+</html>
